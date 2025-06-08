@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="card">
+      <div class="theme-toggle" id="themeToggle">🌙</div>
+      <h1>My To-Do List</h1>
+      <p id="taskCount">0 of 0 tasks completed</p>
+
+      <div class="input-group">
+        <input type="text" id="taskInput" placeholder="What needs to be done?" />
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <ul id="taskList" class="task-list"></ul>
+      <div id="emptyState" class="empty">
+        <p>No tasks yet! Add one above to get started.</p>
+        <img src="https://picsum.photos/id/1018/400/200" alt="No tasks" />
+      </div>
+    </div>
+
+    <footer>
+      Built with HTML, CSS, and JS. <br />
+      © 2025 To-Do Master
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
